@@ -1,0 +1,13 @@
+Prerequisites:
+Ensure the following are installed on your system:
+
+1. PHP
+2. cURL: This is typically included with PHP, but you may need to enable it in your php.ini configuration file.
+
+Enabling cURL in PHP (if not already enabled)
+1. Locate your php.ini file. 
+2. Open the php.ini file in a text editor and uncomment ;extension=curl by removing the semicolon (;) at the beginning
+3. Save the changes and restart your PHP service.
+
+Instruction to run the PHP script:
+php retrieve_dns_domains_records.php
